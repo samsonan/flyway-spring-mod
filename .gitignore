@@ -1,0 +1,13 @@
+*.class
+
+# Package Files #
+*.war
+*.ear
+
+bin/
+target/
+
+# Eclipse artifacts, including WTP generated manifests
+.settings
+.classpath
+.project

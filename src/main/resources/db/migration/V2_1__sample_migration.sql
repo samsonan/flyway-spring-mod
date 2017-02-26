@@ -1,0 +1,1 @@
+insert into sample_table(name) values ('Bob');
