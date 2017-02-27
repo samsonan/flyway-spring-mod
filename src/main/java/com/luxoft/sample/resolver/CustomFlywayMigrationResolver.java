@@ -28,9 +28,8 @@ import java.util.Collections;
 import java.util.Map;
 
 /**
- * Migration resolver for {@link SpringJdbcMigration}s which are registered in the given {@link ApplicationContext}.
- * This resolver provides the ability to use other beans registered in the {@link ApplicationContext} and reference
- * them via Spring's dependency injection facility inside the {@link SpringJdbcMigration}s.
+ * Migration resolver for SpringJdbcMigration classes (i.e. java migration scripts) which are registered in the given {@link ApplicationContext}.
+ * This resolver provides the ability to use other beans registered in the ApplicationContext and reference them in the migration scripts.
  */
 public class CustomFlywayMigrationResolver extends SpringJdbcMigrationResolver {
 

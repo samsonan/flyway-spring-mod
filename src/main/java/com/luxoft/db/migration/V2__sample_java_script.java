@@ -26,5 +26,11 @@ public class V2__sample_java_script implements SpringJdbcMigration {
 
 	public void migrate(JdbcTemplate template) throws Exception {
     	log.debug("migration started. sampleBean: {}", sampleBean);
+    	
+    	for (int i=0;i<10;i++) {
+    	    Thread.sleep(1000);
+    	}
+    	
+        log.debug("migration finished");
     }
 }

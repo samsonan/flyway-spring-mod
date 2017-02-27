@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.luxoft</groupId>
-    <artifactId>lux-sample-project</artifactId>
+    <artifactId>flyway-spring-mod</artifactId>
     <version>2.0.1</version>
 
     <parent>
